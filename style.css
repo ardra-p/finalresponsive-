@@ -738,7 +738,6 @@ left: 300px;
     display: none;
 }
 
-/* Default styles for navbar */
 .nav-menu ul {
     display: flex;
     justify-content: space-between;
@@ -777,8 +776,8 @@ left: 300px;
 }
 
 
-/* Mobile styles */
-@media (max-width: 500px) {
+
+@media screen and (max-width: 500px) and (min-width:350px) {
     
     .header {
         padding-top: 50px;
@@ -938,8 +937,8 @@ left: 300px;
     }
 
     .skills, .Award, .Education {
-        width: 100%; /* Make buttons full width */
-        max-width: 300px; /* Limit button width */
+        width: 100%; 
+        max-width: 300px; 
         font-size: 16px; /* Reduce font size */
         padding: 12px; /* Adjust padding */
     }
@@ -1212,9 +1211,9 @@ left: 300px;
     }
 
     .what {
-        font-size: 30px; /* Adjust font size for smaller screens */
-        line-height: 35px; /* Adjust line height */
-        width: 90%; /* Full width for smaller screens */
+        font-size: 30px; 
+        line-height: 35px; 
+        width: 90%; 
         padding-left: 50px; /* Remove extra padding */
     }
     .mil{
@@ -1478,8 +1477,5 @@ left: 300px;
         .co{
             padding-bottom:40px;
         }
-
-    
-
     
     }
